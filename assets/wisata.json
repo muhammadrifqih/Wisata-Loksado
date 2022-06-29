@@ -1,0 +1,49 @@
+{
+    "wisata": [
+        {
+            "id": 1,
+            "name": "Bambo Rafting",
+            "desc": "Seperti nama nya kegiatan ini menggunakan bambu yang di ikat menjadi satu dan membantuk sebuah Rakit. selama kalian melakukan wisata ini kalian akan di suguhkan oleh pemandangan indah pengunungan dan hutan meratus.",
+            "img": "assets/img/wisata/Bambu Rafting.jpg"
+        },
+        {
+            "id": 2,
+            "name":"River Tubing",
+            "desc": "Revertubing adalah olahraga air yang cukup extrem, gimana tidak extrem kegiatan ini menggunakan Ban dalam mobil untuk pelampung. Tapi tenag kalian akan di pandu oleh orang yang sudah ahli, dan kalian akan menggunakan lift jacket dan Helem selama melakukan kegiatan ini. dan juga kalian akan di suguhkan oleh pemandangan sungai amandit yang indah.",
+            "img":"assets/img/wisata/River Tubing.jpg"
+        },
+        {
+            "id": 3,
+            "name":"Air Terjun Haratai",
+            "desc":"Air Terjun Haratai terletak di Desa Haratai, Kecamatan Loksado, Kabupaten Hulu Sungai Selatan, Provinsi Kalimantan Selatan, bertingkat tiga dengan ketinggian masing-masing kurang lebih 13 meter. Di bawahnya terdapat telaga yang dapat digunakan untuk mandi atau sekadar berendam.",
+            "img":"assets/img/wisata/AirTerjunHaratai.jpeg"
+        },
+        {
+            "id": 4,
+            "name":"Air Panas Tanuhi",
+            "desc":"Air Panas Tanuhi adalah wisata pemandian air panas yangterletak di desa Tanuhu kecamatan Lokaso. Di sanam kalian bisa berendam di kolam-kolan air panas yang telah di sediakan.",
+            "img":"assets/img/wisata/airpanas tanuhi.jpg"
+        }
+    ],
+    
+    "penginapan": [
+        {
+            "id": 1,
+            "name": "Mountain Meratus Resort",
+            "desc": "Mountain Meratus Resort menyediakan beberapa kamar yang bisa disewa dengan tarif Rp462 ribuan per malam. Sebagai perbandingan, pada beberapa tahun lalu, harga sewa kamar di tempat inap ini berkisar Rp440 ribuan hingga Rp1,5 jutaan per malam.",
+            "img": "assets/img/penginapan/Mountain-Meratus-Resort1.webp"
+        },
+        {
+            "id": 2,
+            "name":"Amandit Resort",
+            "desc": "Penginapan satu ini berlokasi di Muara Hatif di Desa Lumpangi, Kecamatan Loksado, Kabupaten Hulu Sungai Selatan.Amandit Resort dilengkapi aula dan tempat parkir yang cukup luas. Untuk menginap di akomodasi ini, Anda akan dikenai biaya sekitar Rp275 ribuan per malam.",
+            "img":"assets/img/penginapan/amandit-resort-1.webp"
+        },
+        {
+            "id": 3,
+            "name":"Cottage Tanuhi",
+            "desc": "Cottage Tanuhi letaknya sekitar 34 km dari Kota Kandangan, tepatnya berada di Desa Tanuhi, Kecamatan Loksado, Kabupaten HSS. Jika menginap di sini, Anda bisa memperoleh akses jalan yang dekat untuk menuju pemandian air panas Tanuhi, sebab letak penginapan ini masuk dalam komplek pemandian air panas tersebut. Di Cottage Tanuhi, terdapat 10 cottage dengan 20 kamar tidur, 2 kolam renang, 1 kolam air panas, aula berkapasitas 75 orang, kantin, tempat bermain anak, dan juga musala. Menurut review tamu yang pernah menginap, tarif Cottage Tanuhi berkisar Rp250 ribuan per malam.",
+            "img":"assets/img/penginapan/cottage-tanuhi-1.webp"
+        }
+    ]
+}

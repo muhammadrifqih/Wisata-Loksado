@@ -1,0 +1,1 @@
+fitur javascript yang saya gunakan adalah loping array yang bisa di akses pada Destinasi & Penginapan.

@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    height: 50px;
+    background-color: #1E6F5C;
+    position: fixed;
+    width: 100%;
+}
+nav h1{
+    line-height: 50px;
+    display: inline-block;
+    margin-left: 40px;
+    color: #fff;
+}
+nav ul {
+    float: right;
+    margin-right: 40px;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: lighter;
+    color: #fff;
+}
+nav ul li a:hover{
+    color: #E6DD3B;
+    transition: all 1s ease-in-out;
+}
+nav label #btn,
+nav label #close{
+    color: #fff;
+    font-size: 30px;
+    float: right;
+    margin-right: 40px;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none   ;
+}
+
+.content .loksado{
+    padding-top: 10rem;
+    background-image: url("../img/Loksado.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.loksado {
+    padding: 10rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.loksado h2, .loksado p{
+    color: white;
+    text-shadow: black;
+}
+
+.fitur{
+    margin: 0 auto;
+    padding: 2px;
+}
+.fitur h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    text-decoration: underline;
+}
+.Destinasi,.Penginapan {
+    background-color: #29BB89;
+    margin: 5rem;
+    margin-top: 1rem;
+    padding: 20px;
+    border-radius: 5px;
+}
+.Destinasi h3,
+.Penginapan h3
+{
+    font-size: 20px;    
+    margin-left: 3rem;
+}
+.colom{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+.card {
+    background-color: bisque;
+    width: 15rem;
+    height: 20rem; 
+    text-align: center;
+    border-radius: 15px;
+    margin: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow:auto;
+}
+.card::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 5px;
+    height: 5px;
+  }
+.card img{
+    width: 10rem;
+    border-radius: 5px;
+}
+.card h4{
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+.card p{
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    text-align: justify;
+    padding: 20px;
+}
+h3{
+    color: white;
+}
+
+.profil{
+    margin: 0 auto;
+    background-color: bisque;
+    width: 15rem;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+}
+aside{
+    margin: 2rem;
+}
+
+.profil a{
+    color: #000;
+    text-decoration: none;
+    padding-right: 7px;
+}
+.profil a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-right: 7px;
+}
+.profil img{
+    background-color: #1E6F5C;
+    border-radius: 50%;
+}
+.profil h2{
+    font-size: 20px
+}
+
+footer{
+    padding: 20px;
+    background-color: #1E6F5C;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width:992px){
+    nav label #btn{
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        margin-right: 0;
+        right: -100%;
+        top: 50px;
+        background-color: #1E6F5C;
+        text-align: center;
+        transition: .5s;
+    }
+    nav ul li{
+        display: block;
+        line-height: 10px;
+        margin: 50px 0;
+    }
+    #check:checked ~ ul {
+        right: 0;
+    }
+    #check:checked ~ label #btn {
+        display: none;
+    }
+    #check:checked ~ label #close {
+        display: block;
+    }
+
+    .loksado {
+        padding: 4rem;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+    }
+    .loksado h2, .loksado p{
+        color: white;
+        text-shadow: black;
+    }
+
+    .fitur{
+        margin: 0 auto;
+        padding: 1px;
+    }
+    .fitur h2{
+        font-size: 20px;
+    }
+    .Destinasi,.Penginapan {
+        background-color: #29BB89;
+        margin: 1rem;
+        padding: 2px;
+        border-radius: 5px;
+    }
+    .Destinasi h3,
+    .Penginapan h3
+    {
+        font-size: 15px;    
+        margin-left: 1rem;
+    }
+    .colom{
+        display: block;
+        justify-content: center;
+    }
+    .card{
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
