@@ -1,4 +1,4 @@
-const data = "assets/Wisata.json";
+const data = "assets/wisata.json";
 const wisata = document.querySelector('#wisata');
 const penginapan = document.querySelector('#penginapan');
 const getWisata = () => {
